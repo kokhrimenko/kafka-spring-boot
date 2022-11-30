@@ -1,4 +1,4 @@
-package com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.kafka;
+package com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.sync.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

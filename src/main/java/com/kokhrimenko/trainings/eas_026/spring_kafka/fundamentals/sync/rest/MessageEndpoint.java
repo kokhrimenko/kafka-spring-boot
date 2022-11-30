@@ -1,4 +1,4 @@
-package com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.rest;
+package com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.sync.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.kafka.MessageProducer;
+import com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.sync.kafka.MessageProducer;
 
 /**
  * Rest controller to send some user messages to the Kafka topic.

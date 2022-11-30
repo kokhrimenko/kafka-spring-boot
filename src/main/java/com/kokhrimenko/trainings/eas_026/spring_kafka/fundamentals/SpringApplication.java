@@ -3,8 +3,9 @@ package com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.kafka.annotation.EnableKafka;
+import org.springframework.scheduling.annotation.EnableAsync;
 
-import com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.kafka.MessageProducer;
+import com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.sync.kafka.MessageProducer;
 
 /**
  * Spring boot application class.
@@ -12,6 +13,7 @@ import com.kokhrimenko.trainings.eas_026.spring_kafka.fundamentals.kafka.Message
  * @author kokhrime
  *
  */
+@EnableAsync
 @SpringBootApplication
 @EnableKafka
 public class SpringApplication {
